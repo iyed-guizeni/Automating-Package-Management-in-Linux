@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Linux Package Management Script! This Bash script is designed to simplify the process of installing, updating, and removing packages on Linux systems. Whether you're a developer, sysadmin, or a Linux enthusiast, this script aims to streamline your package management tasks.
+This Bash script is designed to simplify the process of installing, updating, and removing packages on Linux systems. Whether you're a developer, sysadmin, or a Linux enthusiast, this script aims to streamline your package management tasks.
 
 ## Features
 
