@@ -1,0 +1,70 @@
+spotify,no,Audio,music streaming app,spotify,sudo apt-get install -y spotify-client,apt_remove  spotify-client
+soundconverter,yes,Audio,converting audio from one format to another,soundconverter,apt_install soundconverter,apt_remove soundconverter
+solfege,yes,Audio,ear training software,solfege,apt_install solfege,apt_remove solfege
+audacity,yes,Audio,cross-platform audio editor,audacity,apt_install audacity ,apt_remove audacity 
+skype,yes,Communication,video call tool,skypeforlinux,apt_install  skypeforlinux,apt_remove  skypeforlinux
+whatsapp,yes,Communication,private messaging,whatsapp-desktop,apt_install  whatsapp-desktop,apt_remove  whatsapp-desktop
+slack,yes,Communication,chat with your team,slack,snap_install slack --classic,snap_remove slack
+signal desktop,yes,Communication,private messaging,signal-desktop,snap_install signal-desktop,snap_remove signal-desktop
+discord,yes,Communication,voicemail and video client,discord,snap_install discord,snap_remove discord
+telegram,yes,Communication,private messaging,telegram-desktop,apt_install telegram-desktop,apt_remove telegram-desktop
+teamviewer,yes,Communication,remote computer graphical control,teamviewer,apt_install teamviewer,apt_remove teamviewer
+teams,yes,Communication,microsoft teams for videoconferencing,Microsoft Teams,"curl https://packages.microsoft.com/keys/microsoft.asc |  sudo apt-key add -�; sudo sh -c 'echo ""deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main"" > /etc/apt/sources.list.d/teams.list' ; sudo apt update ; apt_install  teams",apt_remove teams
+zoom,yes,Communication,video conferencing tool,zoom-client,snap_install zoom-client,snap_remove zoom-client
+wine,yes,Gaming,run windows apps on linux,wine,apt_install wine,apt_remove wine
+ktouch,yes,Gaming,typist game,ktouch,apt_install ktouch,apt_remove ktouch
+flightgear,yes,Gaming,Flight simulation game,flightgear,apt_install flightgear,apt_remove flightgear
+openarena,yes,Gaming,3d shooting game,openarena,apt_install openarena,apt_remove openarena
+nexuiz,yes,Gaming,3d shooting game,nexuiz ,apt_install nexuiz nexuiz-data nexuiz-music nexuiz-server nexuiz-textures,apt_remove nexuiz nexuiz-data nexuiz-music nexuiz-server nexuiz-textures
+steam,yes,Gaming,manage and play games,steam,sudo add-apt-repository multiverse ; sudo apt update && apt_install  steam,apt_remove steam
+pix,yes,Image,image viewer and browser,pix,apt_install pix,apt_remove pix
+kolourpaint,yes,Image,graphic image and drawing editor,kolourpaint,apt_install kolourpaint4,apt_remove kolourpaint
+Inkscape,yes,Image,vector drawing program,inkscape,apt_install inkscape,apt_remove inkscape
+gimp,yes,Image,graphic image editor,gimp,apt_install gimp,apt_remove gimp
+cheese,yes,Image,tool to take webcam photos and videos,cheese,apt_install cheese,apt_remove cheese
+trimage,yes,Image,image file optimization tools,trimage,apt_install trimage,apt_remove trimage
+rawtherapee,yes,Image,raw photo conversion and processing,rawtherapee,apt_install rawtherapee-data,apt_remove rawtherapee-data
+zotero,yes,Office,bibliographic reference manager ,zotero,wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh |  sudo bash ;  sudo apt update ; apt_install  zotero,apt_remove zotero�; flatpak uninstall -y Zotero
+Latex env,yes,Office,latex environment,texlive,apt_install texlive-latex-base texmaker,apt_remove texlive-latex-base texmaker
+pdftk,yes,Office,tool to manipulate pdf files,pdftk,apt_install pdftk,apt_remove pdftk
+lybniz,yes,Office,curve plotter for mathematical function,lybniz,apt_install lybniz,apt_remove lybniz
+evince,yes,Office,pdf reader,evince,apt_install evince-common,apt_remove evince-common
+scilab,yes,Office,free scientific computing tool,scilab,apt_install scilab,apt_remove scilab
+cups,yes,Office,printer drivers and tools,cups cups-pddc,apt_install cups cups-pddc,apt_remove cups cups-pddc
+spyder,yes,Programming,Python IDE for scientists,spyder,apt_install spyder,apt_remove spyder
+python3,yes,Programming,The number 1 in high-level programming languages,python3 ,apt_install python3python3-pip python-dev,apt_remove python3 python3-pip python-dev
+meld,yes,Programming,textual file comparison tools,meld,apt_install meld,apt_remove meld
+gedit,yes,Programming,basic text and code editor,gedit,apt_install gedit,apt_remove gedit
+Gcc/g++ compiler,yes,Programming,c and c ++ compiler,gcc,apt_install gcc g++,apt_remove gcc g++
+cmake,yes,Programming,cross-platform make system,cmake,apt_install cmake cmake-gui,apt_remove cmake cmake-gui
+eclispe ide,yes,Programming,Essential IDE for any Java developer,eclipse,apt_install default-jre ; snap_install --classic eclipse,snap_remove eclipse
+atom,yes,Programming,A hackable text and code editor,atom,"wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey |  sudo apt-key add - ; sudo sh -c 'echo ""deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main"" > /etc/apt/sources.list.d/atom.list' ; sudo apt-get update ; apt_install  atom",apt_remove atom
+visual studio code,yes,Programming,most used code editor,code,snap_install --classic code,snap_remove code
+android studio,yes,Programming,IDE for developing Android applications,android-studio,snap_install --classic android-studio,snap_remove android-studio
+sublime,yes,Programming,very distinguished code editor,subl,apt_install sublime-text,apt_remove sublime-text
+build-essential,yes,Programming,informative list of essential building packages,build-essential,apt_install build-essential,apt_remove build-essential
+arduino,yes,Programming,IDE for programming arduino boards,arduino,apt_install arduino,apt_remove arduino
+glade,yes,Programming,GTK + GUI builder,glade,apt_install glade,apt_remove glade
+qtcreator,yes,Programming,Qt development environment,qtcreator ,apt_install openjdk-7-jre qtcreator build-essential,apt_remove qtcreator
+pycharm,yes,Programming,the smartest Python IDE,pycharm-community,apt_install  default-jre ; snap_install pycharm-community --classic,snap_remove pycharm-community
+mintinstall,yes,System,graphical package installation environment,mintinstall,apt_install mintinstall,apt_remove mintinstall
+virt-manager,yes,System,virtual machine manager,virt-manager,apt_install virt-manager,apt_remove virt-manager
+nvidia-settings,yes,System,Nvidia X Server Configuration Tool,nvidia-settings,apt_install nvidia-settings,apt_remove nvidia-settings
+bleachbit,yes,System,delete unnecessary files,bleachbit,apt_install bleachbit,apt_remove bleachbit
+barrier,yes,System,share mouse and keyboard between multiple computers,barrier,apt_install barrier,apt_remove barrier
+mntdrivers,yes,System,driver manager for linux mint,mintdrivers,sudo add-apt-repository ppa:noobslab/mint ; sudo apt-get update ; apt_install  mintdrivers,apt_remove mintdrivers
+vorta ,yes,System,backup client,Vorta,flatpak install flathub com.borgbase.Vorta ; sudo cp ~/.local/share/Vorta/settings.db /app/com.borgbase.Vorta/data/Vorta/,test
+peek,yes,Video,Simple screen recorder,peek,apt_install peek,apt_remove peek
+mpv,yes,Video,Mplayer based video player,mpv,apt_install mpv,apt_remove mpv
+kdenlive,yes,Video,video editing software,kdenlive,apt_install kdenlive,apt_remove kdenlive
+vlc,yes,Video,video player,vlc,apt_install vlc,apt_remove vlc
+openshot,yes,Video,video editing software,openshot-qt ,apt_install openshot,apt_remove openshot
+wireshark,yes,Web,network traffic analyzer,wireshark,apt_install wireshark wireshark-common,apt_remove wireshark wireshark-common
+firefox,yes,Web,Web browser,firefox,apt_install firefox,apt_remove firefox
+chromium,yes,Web,Web browser,chromium,apt_install chromium,apt_remove chromium
+bitwarden,yes,Web,secure and free password manager for all devices,bitwarden,snap_install bitwarden,snap_remove bitwarden
+youtube-dl,yes,Web,youtube video downloader,youtube-dl,apt_install youtube-dl,apt_remove youtube-dl
+transmission-gtk,yes,Web,download using torrent,transmission-gtk,apt_install transmission-gtk,apt_remove transmission-gtk
+openssh-server,yes,Web,secure ssh server,openssh-server,apt_install openssh-server,apt_remove openssh-server
+dropbox,yes,Web,cloud sync engine,dropbox,apt_install dropbox,apt_remove dropbox
+tor browser launcher,yes,Web,Deep web browser,torbrowser-launcher,sudo add-apt-repository ppa:micahflee/ppa ; sudo apt update ; apt_install  torbrowser-launcher,apt_remove torbrowser-launcher
