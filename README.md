@@ -31,3 +31,20 @@ To install packages marked with a "yes" option in the CSV file, run:
 ```bash
 ./script.sh -i
 
+### View Package Types
+
+To display all packages of a specific type, use the -t option followed by the desired type.
+
+```bash
+./script.sh -t Audio
+
+### Removal:
+
+Remove packages marked with a "no" option in the CSV file by using the -r option.
+
+```bash
+./script.sh -r
+
+
+
+
